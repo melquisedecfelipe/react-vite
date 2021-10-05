@@ -2,7 +2,6 @@ module.exports = {
   testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['/node_modules/'],
   collectCoverage: true,
-  coverageProvider: 'v8',
   collectCoverageFrom: [
     'src/**/*.ts(x)?',
     '!src/**/stories.tsx',
