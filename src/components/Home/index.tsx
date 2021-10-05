@@ -1,8 +1,10 @@
-import { FC } from 'react'
-
 import * as S from './styles'
 
-const Home: FC = () => (
+export type HomeProps = {
+  name?: string
+}
+
+const Home = ({ name = 'React Boilerlate' }: HomeProps) => (
   <S.Wrapper>
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -18,9 +20,9 @@ const Home: FC = () => (
     </svg>
 
     <div>
-      <h1>React Boilerlate</h1>
+      <h1>{name}</h1>
       <a
-        href="http://github.com/melquisedecfelipe/react"
+        href="https://github.com/melquisedecfelipe/react"
         target="_blank"
         rel="noopener noreferrer"
       >
