@@ -22,11 +22,11 @@ const Home = ({ name = 'React Boilerlate' }: HomeProps) => (
     <div>
       <h1>{name}</h1>
       <a
-        href="https://github.com/melquisedecfelipe/react"
+        href="https://github.com/melquisedecfelipe/react-vite"
         target="_blank"
         rel="noopener noreferrer"
       >
-        github.com/melquisedecfelipe/react
+        github.com/melquisedecfelipe/react-vite
       </a>
     </div>
   </S.Wrapper>
